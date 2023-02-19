@@ -1,0 +1,28 @@
+{
+  "name": "typegoose-_id-any",
+  "version": "1.0.0",
+  "description": "Minimal working example",
+  "main": "src/main.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Catatomik/typegoose-_id-any.git"
+  },
+  "keywords": [
+    "typegoose"
+  ],
+  "author": "Catatomik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Catatomik/typegoose-_id-any/issues"
+  },
+  "homepage": "https://github.com/Catatomik/typegoose-_id-any#readme",
+  "dependencies": {
+    "@typegoose/typegoose": "^10.1.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}
