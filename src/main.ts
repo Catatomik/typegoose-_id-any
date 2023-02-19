@@ -15,7 +15,7 @@ type AnimalDocument = DocumentType<Animal>;
 (async () => {
 
   /** Type if "_id" is `any`, but should be {@link Types.ObjectId}. */
-  const animalId = (await AnimalModel.findOne({ species: "DoesThe'_id'TypeWork?" }));
-  animalId?._id
+  const animalId = (await AnimalModel.findOne({ species: "DoesThe'_id'TypeWork?" }))!;
+  animalId._id
 
 })()
